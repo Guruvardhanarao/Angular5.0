@@ -1,0 +1,24 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+/* .row {
+    width: 100%;
+} */
+
+body {
+    background-color: lightgray;
+    padding: 0;
+    margin: 0;
+    font-family: calibri;
+}
+
+.login-card .mat-form-field-underline {
+    background-color: #fff;
+}
+
+.login-card .mat-form-field-ripple {
+    background-color: #f6afac;
+}
+
+.login-card .mat-form-field-label {
+    color: #fff;
+}

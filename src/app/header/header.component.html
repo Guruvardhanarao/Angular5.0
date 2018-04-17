@@ -1,0 +1,53 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-white" style="box-shadow: 0 0.25rem 0.125rem 0 rgba(0,0,0,.05);">
+    <a class="navbar-brand" href="#">
+      <img src="../../assets/images/beyontec.png" style="padding-right: 15px; border-right: 1px solid gray">
+    </a>
+    <a class="navbar-brand text-uppercase font-weight-bold" href="#" style="line-height:1;">company<br>name</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto list-alinment">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fab fa-sistrix fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="far fa-bell fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+              <form class="form-inline">
+                  <mat-form-field>
+                      <mat-select [(value)]="selectedLang">
+                        <mat-option value="lang1">English</mat-option>
+                        <mat-option value="lang2">Arabic</mat-option>
+                      </mat-select>
+                    </mat-form-field>
+              </form>
+            </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">
+                <form class="form-inline">
+                    <mat-form-field>
+                        <mat-select [(value)]="selectedUser">
+                          <mat-option value="user1">Super Admin</mat-option>
+                          <mat-option value="user2">Admin</mat-option>
+                        </mat-select>
+                      </mat-form-field>
+                </form>
+              </a>
+            </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <img src="../../assets/images/admin.png" width="50" height="50">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
